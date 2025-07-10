@@ -1,14 +1,18 @@
-/* font from google snas */
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .raleway {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* font from google snas */
+
+body{
+    background-color: #F5F8FF;
 }
 
 /* common style  */
@@ -29,9 +33,6 @@ button:hover{
     box-shadow: 0px 0px 10px #4E47FF80;
     border: 2px solid #dcdcff;
 }
-body{
-    background-color: #F5F8FF;
-}
 
 /* header banner section */
 header {
@@ -47,9 +48,9 @@ header {
 .logo{
     font-size: 34px;
     font-weight: 900;
-}
-.logo span{
-    color: #4E47FF;
+    background: linear-gradient(to right, #9403FD, #00ADFE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .banner-contain {
     margin: 155px auto;
@@ -58,4 +59,25 @@ header {
 .banner-headline{
     font-size: 65px;
     font-weight: 700;
+}
+
+/* action section style  */
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px auto;
+    align-items: center;
+}
+.action-heading{
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+}
+.action-description{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px auto;
+}
+.wc-mini{
+    border-radius: 50px;
 }
