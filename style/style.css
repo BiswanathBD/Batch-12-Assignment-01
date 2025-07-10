@@ -13,6 +13,7 @@
 
 body{
     background-color: #F5F8FF;
+    color: rgba(37, 36, 50, 1);
 }
 
 /* common style  */
@@ -51,6 +52,7 @@ header {
     background: linear-gradient(to right, #9403FD, #00ADFE);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 3px rgba(37, 36, 50, 0.3);
 }
 .banner-contain {
     margin: 155px auto;
@@ -62,7 +64,7 @@ header {
 }
 
 /* action section style  */
-.action-container{
+.action{
     display: flex;
     justify-content: space-between;
     margin: 116px auto;
@@ -79,5 +81,104 @@ header {
     margin: 23px auto;
 }
 .wc-mini{
-    border-radius: 50px;
+    border-radius: 48px;
+}
+
+/* productive user section  */
+.productive-user{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin: 0 140px;
+    padding: 50px 142px;
+    text-align: center;
+}
+.action-heading{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.data-section{
+    display: flex;
+    justify-content: space-between;
+}
+.data h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+    margin: 0;
+}
+.data p{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* review section  */
+.review{
+margin: 137px auto;
+}
+.review-heading{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+.user-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.user-review h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 24px auto 8px;
+}
+.user-review{
+    background-color: #ffff;
+    padding: 24px;
+    border-radius: 14px;
+    border: 1px solid rgba(242, 237, 237, 1);
+}
+.id{
+    display: flex;
+    align-items: center;
+}
+.id img{
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.id-name h5{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+.id-name p{
+    font-size: 18px;
+    font-weight: 300;
+        margin: 0;
+    padding: 0;
+    color: lightgray;
+}
+
+/* focus section  */
+.focus{
+    background-color: #ffff;
+    border-radius: 14px;
+    padding: 71px 150px;
+    text-align: center;
+    margin: 0 140px;
+}
+.focus-heading{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px auto;
+}
+.focus-description{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.wc-big{
+    border-radius: 48px;
+    margin-top: 20px;
+
 }
