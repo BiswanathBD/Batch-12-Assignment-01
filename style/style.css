@@ -182,3 +182,40 @@ margin: 137px auto;
     margin-top: 20px;
 
 }
+
+/* form section  */
+.form-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 632px;
+}
+.form-heading{
+    font-size: 97px;
+}
+.form label{
+    font-size: 18px;
+    width: 500;
+    margin-bottom: 10px;
+}
+.form input, textarea{
+    display: block;
+    width: 457px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 32px;
+    border: none;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+.form-button{
+    color: #ffff;
+    background-color: #4E47FF;
+    width: 522px;
+    padding: 19px 201px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
