@@ -219,3 +219,17 @@ margin: 137px auto;
     font-size: 16px;
     font-weight: 700;
 }
+
+/* footer section start  */
+footer{
+    background-color: #ffff;
+    text-align: center;
+    min-height: 428px;
+    align-items: center;
+}
+footer .logo{
+    font-size: 121px;
+    margin: 104px auto;
+    width: 350px;
+    margin: 0 auto;
+}
